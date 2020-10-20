@@ -1,0 +1,135 @@
+.divu{
+width: 200px;
+}
+.liii{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.divi{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    /* background-color: #7F9C96; */
+    /* height: 1000%; */
+    /* height: 100vh; */
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Calming-Wallpapers-HD-For-Desktop.jpg');
+}
+/* .Container {
+    width: 400px;
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+    .Container2{
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        height: 500px; } */
+.img{
+
+    width: 70px;
+    
+    height: 70px;
+    
+    border-radius: 60%;
+    
+    }
+.img:hover{
+
+    transform: translateY(-10px);
+    box-shadow: 0px 25px 50px rgba(255, 255, 255, 0.5);
+}    
+    .div1 {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    }
+    .div1:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    }
+h3{
+    color: rgb(177, 177, 177);
+    }
+.h3{
+        padding: 14px;
+        
+        text-align: center;
+       
+        
+    }
+.hr{
+        padding: 14px;
+        
+        text-align: center;
+    }
+.ahuaru{
+        padding: 14px;
+        
+        text-align: center;
+    }
+.div2{
+    
+    background-color: whitesmoke;  
+      width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    }
+    .div2:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    }
+li{
+       
+       
+            
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 40px;
+    padding-bottom: 100px;
+        padding-bottom: 100px;
+         */
+    }
+.imagi{
+    border-radius: 16px;
+    
+    width: 400px;
+    
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+ }
+ .imagi:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+ }
+.imagi2 {
+    border-radius: 16px;
+    
+    width: 400px;
+    
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-between;
+ }
+ .imagi2:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+ }
+ .navbar{
+     width: 100%;
+     height: 80px;
+     display:inline-block;
+     /* background-color: #4d7c8a; */
+     border-radius: 30px;
+     margin-top: 6px;
+     
+ }

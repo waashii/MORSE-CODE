@@ -1,0 +1,111 @@
+.duvi{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+a {
+    width: 250px;
+    height: 240px;
+}
+.liii{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+body{
+    /* height: 1000%;
+   height: 100vh;
+   text-align: center;
+   background-image: url('../homePage/Screen\ Shot\ 2020-10-11\ at\ 8.49.38\ PM.png');
+   background-size: 100% 100%; */
+   /* background-repeat: no-repeat; */
+   
+   background-image: url('../1-Slide-1.jpg');
+}
+   
+   .imagi{
+        border-radius: 50px;
+        width: 250px;
+        height: 240px;
+        display: inline-flex;
+        justify-content: space-between;  
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+  
+      }
+        .imagi:hover{
+            transform: translateY(-20px);
+            box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);
+        }
+
+        .img{
+
+            width: 70px;
+            
+            height: 70px;
+            
+            border-radius: 60%;
+          
+            }
+        .img:hover{
+        
+            transform: translateY(-10px);
+            box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);}
+
+    .div1 {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    }
+    .div1:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);;
+    }
+    h3{
+        color: rgb(177, 177, 177);
+    }
+    .h3{
+        padding: 14px;
+    
+        text-align: center;    
+    }
+    .hr{
+        padding: 14px;
+        
+        text-align: center;
+    }
+    .ahuaru{
+        padding: 14px;
+        
+        text-align: center;
+    }
+    .div2{
+    
+        background-color: whitesmoke;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    }
+    .div2:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);
+    }
+    .li{
+       
+       
+        display: flex;
+        justify-content: space-between;
+        padding-right: 40px;
+        padding-bottom: 100px;
+        
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display:inline-block;
+       /* background-color: rgb(177, 177, 177); */
+       /* background-image: url('../im\ the\ one.png'); */
+        border-radius: 30px;
+        margin-top: 6px;
+        
+    }
