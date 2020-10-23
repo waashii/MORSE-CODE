@@ -1,4 +1,300 @@
-h1{
+*
+{
+  margin: 0;
+     padding: 0;
+}
+header
+{
+    /* background-color: #333; */
+    background-image:  url('../pictures/blank-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+margin: 0;
+padding: 0;
+   
+   
+    background-position: center;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px ;
+}
+.main-nav li
+{
+    display: inline-block ;
+}
+.main-nav li a
+{
+color: rgb(161, 161, 161);
+text-decoration: none;
+padding: 5px 20px;
+font-family: "Roboto",sans-serif;
+font-size: 15px ;
+}
+.main-nav li.active a
+{
+    border: 1px solid rgb(161, 161, 161); 
+}
+.main-nav li  a:hover
+{
+    border :1px solid rgb(161, 161, 161);
+}
+body
+{
+font-family: monospace;
+}
+.row{
+    max-width:  1200px;
+    margin: auto ;
+}
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+h1
+{
+    color: white;
+text-transform: uppercase;
+font-size: 70px;
+text-align: center;
+margin-top: 575px;
+margin-left: 200px;
+
+}
+/* --------------------------- */
+
+.liii{
+  
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+       
+    
+}
+.liiii{
+  
+    display: flex;
+    justify-content: space-between;
+   
+   
+
+}
+.emgi{
+    border-radius: 50px;
+    width: 500px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-right: 70px;
+    
+    
+    
+}
+.emgi2{
+    border-radius: 50px;
+    width: 700px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+.input1{
+    margin-right: 520px;    
+    margin-left: 160px;
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+}
+.input2{
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+}
+.button1{
+    margin-right: 550px;  
+    margin-left: 190px;  
+    border-radius: 25px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.button1:hover{
+    background-color: rgba(236, 197, 22, 0.671);
+}
+.button2{
+    border-radius: 25px;  
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.button2:hover{
+    background-color: rgba(236, 197, 22, 0.671);
+}
+.pa{
+    margin-top: 50px;
+   
+    margin-left: 200px;
+}
+.pb{
+    margin-top: 50px;
+   margin-right: 280px;
+}
+h2{
+    
+   margin-left: 420px; 
+   width: 500px;
+
+}
+
+.ppp{
+
+   width: 400px;
+   margin-left: 100px; 
+}
+.navi{
+    margin-top: 50px;
+   margin-left: 890px;
+border: solid rgba(236, 197, 22, 0.671);
+border-radius: 5px;
+width: 500px;
+}
+/* .button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+    text-align: center;
+}
+.btn
+{
+border: 1px solid white;
+padding: 10px 30px;
+color: white;
+text-decoration: none;
+margin-right: 5px;
+font-size: 13px;
+text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto",sans-serif;
+    margin-right: 180px;
+}
+.btn-two
+{
+    font-family: "Roboto",sans-serif;
+}
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in ;
+} */
+/* .the li{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.Eimg{
+    border-radius: 50px;
+    width: 500px;
+  
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+   margin-top: 90px;
+
+}
+.Eimg1{
+    border-radius: 50px;
+    width: 500px;
+ 
+
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+   margin-top: 90px;
+
+}   */
+/*
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+   margin-right: 651px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+button{
+    border-radius: 25px;
+   
+    margin-left: 225px;
+    margin-top: 30px;
+}
+button:hover{
+   
+}
+.p{
+    margin-left: 150px;
+}
+.p1{
+ margin-right: 50px;   
+ margin-left: 600px;
+}
+.button{
+    border-radius: 25px;
+    width: 40px;
+    height: 30px;
+    margin-left: 1000px; } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-img{
+
+    width: 70px;
+    
+    height: 70px;
+    
+    border-radius: 60%;
+    float: left;
+    margin-top: 2px;
+  margin-right: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
     color: #ffff;
     padding: 50px;
 }
@@ -20,8 +316,9 @@ body{
    
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: #7F9C96; */
-    background-image: url('https://images.fineartamerica.com/images-medium-large-5/starry-night-jorge-maia.jpg');
+    background-color: #7F9C96;
+    background-image: url('https://images.fineartamerica.com/images-medium-large-5/starry-night-jorge-maia.jpg'); */
+/* 
 }
 
 .img{
@@ -93,4 +390,11 @@ li{
    
     border-radius: 30px;
     
-}
+} */
+
+/* -------------------- */
+
+   
+    /* } */
+    /*    img  */
+    /* .imghover   */

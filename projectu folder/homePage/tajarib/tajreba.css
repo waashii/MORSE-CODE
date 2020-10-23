@@ -99,6 +99,9 @@ float: left  ;
     position: relative;
     overflow: hidden;
 }
+.quiz-box .option-container .option.already-answered{
+pointer-events: none ;
+}
 @keyframes fadeIn{
     0%{
         opacity: 0;
@@ -126,7 +129,21 @@ animation: slideInLeft .5s ease forwards;
         transform: translateX(0%);
     }
 }
-.quiz-box .option-container .option.correct::before{
+.quiz-box .option-container .option.wrong::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+    animation: slideInLeft .5s ease forwards;
+    }
+    .quiz-box .option-container .option.wrong{
+        color: #ffffff;
+    }
+.quiz-box .option-container .option.correct{
     color: #ffffff;
 }
 .quiz-box .btn{

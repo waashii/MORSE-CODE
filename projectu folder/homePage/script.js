@@ -1,4 +1,6 @@
-
+function almazeed() {
+    document.getElementById("al9ra");
+}
 
 
 

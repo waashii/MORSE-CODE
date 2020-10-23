@@ -5,11 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMPITITIONS PAGE</title>
     <link rel="stylesheet" href="./COMPITITIONS.css">
-    <script src="./COMPITITION.js"></script>
+    
+
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #009688;
+        }
+        </style>
+
 </head>
 <body>
 
-<div class="navbar">
+    <ul>
+        <li><a  href="../homePage/index.html">الصفحة الرئيسية</a></li>
+        <li><a class="active" href="#news">التحدي</a></li>
+        <li><a href="../TRYPage/TRY.html">جرب</a></li>
+        <li><a href="../basicsPages/BASICS.html">الأساسيات</a></li>
+      </ul>
+
+
+
+<!-- <div class="navbar">
 
       <ul>  
              <li>   
@@ -54,16 +95,16 @@
         </a>
     </li> 
     </ul>
-</div>
+</div> -->
 <!----------------------------------------------------------------------->
-    <ul>
+    <!-- <ul>
         <div class="divi">
-            <!-- <br>
+            <br>
             <br>
             <br>
             <br> -->
-            <li class="liii">
-<a href="./voicesChalenge/voice chalenge.html">
+            <!-- <li class="liii"> -->
+<!-- <a href="./voicesChalenge/voice chalenge.html">
 
 <img src="https://www.pngitem.com/pimgs/m/10-103274_voice-free-download-and-sound-icon-png-transparent.png" alt="a voice Logo" class="imagi">
 
@@ -82,7 +123,65 @@
 </li>    
 
 
-  </ul>
+  </ul> --> 
+  <div class="home-box custom-box ">
+    <h3>المقدمة:</h3>
+    <p>عدد الاسئلة هي: <span class="total-question"></span></p>
+    <button type="button" class="btn" onclick="startQuiz()">إبدأ لاختبار معلومات😎</button>
+              </div>
+               <div class="quiz-box custom-box hide ">
+         <div class="question-number"> 
+    
+           </div>
+    <div class="question-text">
+    
+    </div>
+    <div class="option-container">
+    
+    </div>
+    <div class="next-question-btn">
+        <button type="button" class="btn" onclick="next()">التالي</button>
+    </div>
+    <div class="answers-indicator">
+        
+    </div>
+    </div>
+    <div class="result-box custom-box hide ">
+        <h1>نتائج الاختبار</h1>
+        <table>
+            <tr>
+                <td>عدد الاسئلة</td>
+                <td><span class="total-question"></span></td>
+            </tr>
+            <tr>
+                <td>عدد المحاولات</td>
+                <td><span class="total-attempt"></span></td>
+            </tr>
+            <tr>
+                <td> عدد الاجابات الصحيحة</td>
+                <td><span class="total-correct"></span></td>
+            </tr>
+            <tr>
+                <td> عدد الاجابات الخاطئة</td>
+                <td><span class="total-wrong"></span></td>
+            </tr>
+            <tr>
+                <td> النتيجة النسبية</td>
+                <td><span class="percentage"></span></td>
+            </tr>
+            <tr>
+                <td> مجموع درجاتك</td>
+                <td><span class="total-score"></span></td>
+            </tr>
+        </table>
+                 <button type="button" class="btn" onclick="tryAgainQuiz()">اعادة المحاولة</button>
+                 <button type="button" class="btn" onclick="window.location.href='../homePage/index.html'"> العودة للصفحة الرئيسية</button>
+  
+    </div>
+    <script src="./COMPITITION.js"></script>
+    <script src="./app.js"></script>
+    </body>
+    </html>
 
 
 

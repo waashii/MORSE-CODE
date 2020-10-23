@@ -1,35 +1,99 @@
+*{
+  margin: 0;
+     padding: 0;
+}
+body
+{
+     background-image:  url(file:///Users/washialhammadi/Documents/GitHub/the-MORSE/projectu%20folder/basicsPages/basicbg.jpg);
+   
+    /* background-color: #333; */
+    /* linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px ;
+} 
+.main-nav li
+{
+    display: inline-block ;
+}
+.main-nav li a
+{
+color: white;
+text-decoration: none;
+padding: 5px 20px;
+font-family: "Roboto",sans-serif;
+font-size: 15px ;
+}
+.main-nav li.active a
+{
+    border: 1px solid white; 
+}
+.main-nav li  a:hover
+{
+    border :1px solid white
+}
+body
+{
+font-family: monospace;
+}
+.row{
+    max-width:  1200px;
+    margin: auto ;
+}
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+h1
+{
+    color: white;
+text-transform: uppercase;
+font-size: 70px;
+text-align: center;
+margin-top: 575px;
+margin-left: 200px;
+
+}
+
+.logo-img{
+
+    width: 70px;
+    
+    height: 70px;
+    
+    border-radius: 60%;
+    float: left;
+    margin-top: 2px;
+  margin-right: 100px;
+    }
 .duvi{
     padding-left: 100px;
     padding-right: 100px;
-}
-a {
-    width: 250px;
-    height: 240px;
 }
 .liii{
     display: flex;
     justify-content: space-between;
    
 }
-
-body{
-    /* height: 1000%;
-   height: 100vh;
-   text-align: center;
-   background-image: url('../homePage/Screen\ Shot\ 2020-10-11\ at\ 8.49.38\ PM.png');
-   background-size: 100% 100%; */
-   /* background-repeat: no-repeat; */
-   
-   background-image: url('../1-Slide-1.jpg');
-}
    
    .imagi{
         border-radius: 50px;
         width: 250px;
         height: 240px;
-        display: inline-flex;
-        justify-content: space-between;  
+        /* display: flex; */
+        /* justify-content: space-between;   */
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+        /* margin-top: 80px; */
   
       }
         .imagi:hover{
@@ -41,9 +105,11 @@ body{
 
             width: 70px;
             
-            height: 70px;
+            /* height: 70px; */
             
             border-radius: 60%;
+            /* margin: 0; */
+            /* padding: 0; */
           
             }
         .img:hover{
@@ -51,46 +117,46 @@ body{
             transform: translateY(-10px);
             box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);}
 
-    .div1 {
+    /* .div1 {
     background-color: whitesmoke;
     width: 150px;
     height: 50px;
     border-radius: 50px;
-    }
-    .div1:hover{
+    } */
+    /* .div1:hover{
         transform: translateY(-10px);
         box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);;
-    }
-    h3{
+    } */
+    /* h3{
         color: rgb(177, 177, 177);
-    }
-    .h3{
+    } */
+    /* .h3{
         padding: 14px;
     
         text-align: center;    
-    }
-    .hr{
+    } */
+    /* .hr{
         padding: 14px;
         
         text-align: center;
-    }
-    .ahuaru{
+    } */
+    /* .ahuaru{
         padding: 14px;
         
         text-align: center;
-    }
-    .div2{
+    } */
+    /* .div2{
     
         background-color: whitesmoke;
     width: 170px;
     height: 50px;
     border-radius: 50px;
-    }
-    .div2:hover{
+    } */
+    /* .div2:hover{
         transform: translateY(-10px);
         box-shadow: 0px 20px 50px rgba(28, 4, 241, 0.548);
-    }
-    .li{
+    } */
+    /* .li{
        
        
         display: flex;
@@ -98,14 +164,17 @@ body{
         padding-right: 40px;
         padding-bottom: 100px;
         
-    }
-    .navbar{
-        width: 100%;
-        height: 100px;
-        display:inline-block;
+    } */
+    /* .navbar{ */
+        /* width: 100%; */
+        /* height: 70px; */
+        /* display:inline-block; */
        /* background-color: rgb(177, 177, 177); */
        /* background-image: url('../im\ the\ one.png'); */
-        border-radius: 30px;
-        margin-top: 6px;
+        /* border-radius: 30px; */
+        /* margin-top: 10px; */
         
-    }
+        
+    /* } */
+    /* -------------------------------------- */
+
