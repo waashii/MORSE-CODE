@@ -4,7 +4,7 @@
 }
 body
 {
-     background-image:  url(file:///Users/washialhammadi/Documents/GitHub/the-MORSE/projectu%20folder/basicsPages/basicbg.jpg);
+     background-image:  url(./basicbg.jpg);
    
     /* background-color: #333; */
     /* linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), */
@@ -46,14 +46,14 @@ font-family: monospace;
     max-width:  1200px;
     margin: auto ;
 }
-.hero
+/* .hero
 {
     position: absolute;
     width: 1200px;
     margin-left: 0px;
     margin-top: 0px;
     
-}
+} */
 h1
 {
     color: white;
